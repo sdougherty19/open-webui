@@ -809,7 +809,7 @@ USER_PERMISSIONS = PersistentConfig(
 ENABLE_MODEL_FILTER = PersistentConfig(
     "ENABLE_MODEL_FILTER",
     "model_filter.enable",
-    os.environ.get("ENABLE_MODEL_FILTER", "False").lower() == "true",
+    os.environ.get("ENABLE_MODEL_FILTER", "False").lower() == "false",
 )
 MODEL_FILTER_LIST = os.environ.get("MODEL_FILTER_LIST", "")
 MODEL_FILTER_LIST = PersistentConfig(
