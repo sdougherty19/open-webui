@@ -179,7 +179,7 @@ CHANGELOG = changelog_json
 # SAFE_MODE
 ####################################
 
-SAFE_MODE = os.environ.get("SAFE_MODE", "false").lower() == "true"
+SAFE_MODE = os.environ.get("SAFE_MODE", "true").lower() == "true"
 
 ####################################
 # WEBUI_BUILD_HASH
