@@ -229,7 +229,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Playground')} | {$WEBUI_NAME}
+		{$i18n.t('Playground')} | 'AI'
 	</title>
 </svelte:head>
 
