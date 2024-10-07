@@ -8,7 +8,7 @@
 
 	import Modal from '../common/Modal.svelte';
 	import Account from './Settings/Account.svelte';
-	import About from './Settings/About.svelte';
+	//import About from './Settings/About.svelte';
 	import General from './Settings/General.svelte';
 	import Interface from './Settings/Interface.svelte';
 	import Audio from './Settings/Audio.svelte';
@@ -291,7 +291,7 @@
 							/>
 						</svg>
 					</div>
-					<div class=" self-center">{$i18n.t('About')}</div>
+					<div class=" self-center">{$i18n.t('')}</div>
 				</button>
 			</div>
 			<div class="flex-1 md:min-h-[28rem]">
