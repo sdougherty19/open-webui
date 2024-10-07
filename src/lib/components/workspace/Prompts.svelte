@@ -60,7 +60,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Prompts')} | {$WEBUI_NAME}
+		{$i18n.t('Prompts')} | 'AI'
 	</title>
 </svelte:head>
 
