@@ -140,7 +140,7 @@
 						class="flex items-center justify-center gap-3 text-xl sm:text-2xl text-center font-semibold dark:text-gray-200"
 					>
 						<div>
-							{$i18n.t('Signing in to {'AI'}', { WEBUI_NAME: 'AI' })}
+							{$i18n.t('Signing in to {{'AI'}}', { WEBUI_NAME: 'AI' })}
 						</div>
 
 						<div>
@@ -159,9 +159,9 @@
 						<div class="mb-1">
 							<div class=" text-2xl font-medium">
 								{#if mode === 'signin'}
-									{$i18n.t(`Sign in to {'AI'}`, { WEBUI_NAME: 'AI' })}
+									{$i18n.t(`Sign in to {{'AI'}}`, { WEBUI_NAME: 'AI' })}
 								{:else}
-									{$i18n.t(`Sign up for {'AI'}`, { WEBUI_NAME: 'AI' })}
+									{$i18n.t(`Sign up for {{'AI'}}`, { WEBUI_NAME: 'AI' })}
 								{/if}
 							</div>
 
