@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: open-webui-deployment
-  namespace: open-webui
+  name: AI-deployment
+  namespace: AI
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: open-webui
+      app: AI
   template:
     metadata:
       labels:
-        app: open-webui
+        app: AI
     spec:
       containers:
-      - name: open-webui
+      - name: AI
         image: ghcr.io/open-webui/open-webui:main
         ports:
         - containerPort: 8080
