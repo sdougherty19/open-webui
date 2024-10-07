@@ -170,7 +170,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Functions')} | {$WEBUI_NAME}
+		{$i18n.t('Functions')} | 'AI'
 	</title>
 </svelte:head>
 
