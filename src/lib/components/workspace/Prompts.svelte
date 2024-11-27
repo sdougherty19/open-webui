@@ -40,9 +40,9 @@
 	$: filteredItems = prompts.filter((p) => query === '' || p.command.includes(query));
 
 	const shareHandler = async (prompt) => {
-		toast.success($i18n.t('Redirecting you to OpenWebUI Community'));
+		toast.success($i18n.t('Redirecting you to Logic System AI'));
 
-		const url = 'https://openwebui.com';
+		const url = 'https://logicsystem.ai';
 
 		const tab = await window.open(`${url}/prompts/create`, '_blank');
 		window.addEventListener(
@@ -88,7 +88,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Prompts')} | {$WEBUI_NAME}
+		{$i18n.t('Prompts')} | 'AI'
 	</title>
 </svelte:head>
 
