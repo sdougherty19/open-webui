@@ -2479,7 +2479,7 @@ async def get_app_config(request: Request):
     return {
         **({"onboarding": True} if onboarding else {}),
         "status": True,
-        "name": WEBUI_NAME,
+        "name": "Logic System AI",
         "version": VERSION,
         "default_locale": str(DEFAULT_LOCALE),
         "oauth": {
@@ -2624,9 +2624,9 @@ async def oauth_callback(provider: str, request: Request, response: Response):
 @app.get("/manifest.json")
 async def get_manifest_json():
     return {
-        "name": WEBUI_NAME,
-        "short_name": WEBUI_NAME,
-        "description": "Open WebUI is an open, extensible, user-friendly interface for AI that adapts to your workflow.",
+        "name": "Logic System AI",
+        "short_name": "Logic System AI",
+        "description": "Logic System AI is your solution for private, custome AI.",
         "start_url": "/",
         "display": "standalone",
         "background_color": "#343541",
