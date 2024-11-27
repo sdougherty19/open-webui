@@ -22,12 +22,12 @@
 			<div class="m-auto pb-44 flex flex-col justify-center">
 				<div class="max-w-md">
 					<div class="text-center text-2xl font-medium z-50">
-						{$i18n.t('{{webUIName}} Backend Required', { webUIName: $WEBUI_NAME })}
+						{$i18n.t('{{webUIName}} Backend Required', { webUIName: AI })}
 					</div>
 
 					<div class=" mt-4 text-center text-sm w-full">
 						{$i18n.t(
-							"Oops! You're using an unsupported method (frontend only). Please serve the WebUI from the backend."
+							"Oops! You're using an unsupported method (frontend only). Please serve AI from the backend."
 						)}
 
 						<br class=" " />
@@ -38,8 +38,8 @@
 							target="_blank">{$i18n.t('See readme.md for instructions')}</a
 						>
 						{$i18n.t('or')}
-						<a class=" font-semibold underline" href="https://discord.gg/5rJgQTnV4s" target="_blank"
-							>{$i18n.t('join our Discord for help.')}</a
+						<a class=" font-semibold underline" href="https://discord.gg" target="_blank"
+							>{$i18n.t('Discord.')}</a
 						>
 					</div>
 
