@@ -20,8 +20,8 @@ ARG BUILD_HASH=dev-build
 ARG UID=0
 ARG GID=0
 
-######## WebUI frontend ########
-FROM --platform=$BUILDPLATFORM node:22-alpine3.20 AS build
+######## WebUI frontend - did not modify node to 21-alpine3.19. If issues revert back########
+FROM --platform=${BUILDPLATFORM:-linux/amd64} node:22-alpine3.20 AS build
 ARG BUILD_HASH
 
 WORKDIR /app
