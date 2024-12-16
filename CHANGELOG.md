@@ -9,7 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **🔓 Bypass Model Access Control**: Introduced the 'BYPASS_MODEL_ACCESS_CONTROL' environment variable. Easily bypass model access controls for user roles when access control isn't required, simplifying workflows for trusted environments.
 - **📝 Markdown in Banners**: Now supports markdown for banners, enabling richer, more visually engaging announcements.
 - **🎨 Styling Enhancements**: General UI style refinements for a cleaner and more polished interface.
 - **📋 Rich Text Reliability**: Improved the reliability and stability of rich text input across chats for smoother interactions.
