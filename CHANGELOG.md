@@ -11,13 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **🔓 Bypass Model Access Control**: Introduced the 'BYPASS_MODEL_ACCESS_CONTROL' environment variable. Easily bypass model access controls for user roles when access control isn't required, simplifying workflows for trusted environments.
 - **📝 Markdown in Banners**: Now supports markdown for banners, enabling richer, more visually engaging announcements.
-- **🌐 Internationalization Updates**: Enhanced translations across multiple languages, further improving accessibility and global user experience.
 - **🎨 Styling Enhancements**: General UI style refinements for a cleaner and more polished interface.
 - **📋 Rich Text Reliability**: Improved the reliability and stability of rich text input across chats for smoother interactions.
 
 ### Fixed
 
-- **💡 Tailwind Build Issue**: Resolved a breaking bug caused by Tailwind, ensuring smoother builds and overall system reliability.
 - **📚 Knowledge Collection Query Fix**: Addressed API endpoint issues with querying knowledge collections, ensuring accurate and reliable information retrieval.
 
 ## [0.4.7] - 2024-12-01
@@ -35,8 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - **✏️ Textarea Shifting Bug**: Resolved the issue where the textarea shifted unexpectedly, ensuring a smoother typing experience.
-- **⚙️ Model Configuration Modal**: Fixed the issue where the models configuration modal introduced in 0.4.5 wasn’t working for some users.
-- **⚡ Improved General Reliability**: Various minor fixes improve platform stability and ensure a smoother overall experience across workflows.
 
 ## [0.4.5] - 2024-11-26
 
@@ -45,7 +41,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **🔍 Query Generation Issue**: Resolved an error in web search query generation, enhancing search accuracy and ensuring smoother search workflows.
 - **📏 Textarea Auto Height Bug**: Fixed a layout issue where textarea input height was shifting unpredictably, particularly when editing system prompts.
 - **⚙️ Missing Min_P Save**: Resolved an issue where the 'min_p' parameter was not being saved in configurations.
-- **🛠️ Tools Description**: Fixed a key issue that omitted tool descriptions in tools payload.
 
 ## [0.4.4] - 2024-11-22
 
@@ -82,15 +77,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **👥 User Groups**: You can now create and manage user groups, making user organization seamless.
-- **🔐 Group-Based Access Control**: Set granular access to models, knowledge, prompts, and tools based on user groups, allowing for more controlled and secure environments.
-- **🛠️ Group-Based User Permissions**: Easily manage workspace permissions. Grant users the ability to upload files, delete, edit, or create temporary chats, as well as define their ability to create models, knowledge, prompts, and tools.
 - **🎨 Redesigned Model Workspace**: Freshly redesigned to improve usability for managing models across users and groups.
   
-### Fixed
-
-- **🎥 YouTube Video Attachments**: Fixed issues preventing proper loading and attachment of YouTube videos as files.
-
 ### Changed
 
 - **🛠️ Functions Moved to Admin Panel**: As Functions operate as advanced plugins, they are now accessible from the Admin Panel instead of the workspace.
