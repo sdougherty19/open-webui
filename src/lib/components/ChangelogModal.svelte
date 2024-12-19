@@ -26,8 +26,8 @@
 	<div class="px-5 pt-4 dark:text-gray-300 text-gray-700">
 		<div class="flex justify-between items-start">
 			<div class="text-xl font-semibold">
-				{$i18n.t('What’s New in')}
-				{'AI'}
+				{$i18n.t('Welcome to')}
+				{'Logic System AI'}
 				<Confetti x={[-1, -0.25]} y={[0, 0.5]} />
 			</div>
 			<button
