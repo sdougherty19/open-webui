@@ -47,7 +47,7 @@
 		<div>
 			<div class=" mb-2.5 text-sm font-medium flex space-x-2 items-center">
 				<div>
-					{$WEBUI_NAME}
+					Logic System AI
 					{$i18n.t('Version')}
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 						</Tooltip>
 
 						<a
-							href="https://github.com/open-webui/open-webui/releases/tag/v{version.latest}"
+							href="https://logicsystem.ai"
 							target="_blank"
 						>
 							{updateAvailable === null
@@ -95,7 +95,7 @@
 			<hr class=" dark:border-gray-850" />
 
 			<div>
-				<div class=" mb-2.5 text-sm font-medium">{$i18n.t('Ollama Version')}</div>
+				<div class=" mb-2.5 text-sm font-medium">{$i18n.t('Model Engine')}</div>
 				<div class="flex w-full">
 					<div class="flex-1 text-xs text-gray-700 dark:text-gray-200">
 						{ollamaVersion ?? 'N/A'}
@@ -107,37 +107,37 @@
 		<hr class=" dark:border-gray-850" />
 
 		<div class="flex space-x-1">
-			<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
+			<a href="https://logicsystem.ai" target="_blank">
 				<img
 					alt="Discord"
-					src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
+					src="https://img.shields.io/?logo=discord&logoColor=white"
 				/>
 			</a>
 
-			<a href="https://twitter.com/OpenWebUI" target="_blank">
+			<a href="https://logicsystem.ai" target="_blank">
 				<img
 					alt="X (formerly Twitter) Follow"
-					src="https://img.shields.io/twitter/follow/OpenWebUI"
+					src="https://img.shields.io/twitter"
 				/>
 			</a>
 
-			<a href="https://github.com/open-webui/open-webui" target="_blank">
+			<a href="https://github.com" target="_blank">
 				<img
-					alt="Github Repo"
-					src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
+					alt="Github"
+					src="https://github.com"
 				/>
 			</a>
 		</div>
 
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
-			{#if !$WEBUI_NAME.includes('Open WebUI')}
-				<span class=" text-gray-500 dark:text-gray-300 font-medium">{$WEBUI_NAME}</span> -
+			{#if !$WEBUI_NAME.includes('Logic System AI')}
+				<span class=" text-gray-500 dark:text-gray-300 font-medium">'Logic System AI'</span> -
 			{/if}
-			{$i18n.t('Created by')}
+			{$i18n.t('Built by')}
 			<a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
-				href="https://github.com/tjbck"
-				target="_blank">Timothy J. Baek</a
+				href="https://logicsystem.ai"
+				target="_blank">Logic System AI</a
 			>
 		</div>
 	</div>
