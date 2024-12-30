@@ -79,9 +79,9 @@
 	};
 
 	const shareModelHandler = async (model) => {
-		toast.success($i18n.t('Redirecting you to OpenWebUI Community'));
+		toast.success($i18n.t('Redirecting you to Logic System AI'));
 
-		const url = 'https://openwebui.com';
+		const url = 'https://logicsystem.ai';
 
 		const tab = await window.open(`${url}/models/create`, '_blank');
 
@@ -184,7 +184,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Models')} | {$WEBUI_NAME}
+		{$i18n.t('Models')} | 'Logic System AI'
 	</title>
 </svelte:head>
 
