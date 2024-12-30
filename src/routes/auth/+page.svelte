@@ -124,7 +124,7 @@
 
 <svelte:head>
 	<title>
-		{`${$WEBUI_NAME}`}
+		{`Logic System AI`}
 	</title>
 </svelte:head>
 
@@ -163,7 +163,7 @@
 							class="flex items-center justify-center gap-3 text-xl sm:text-2xl text-center font-semibold dark:text-gray-200"
 						>
 							<div>
-								{$i18n.t('Signing in to {{WEBUI_NAME}}', { WEBUI_NAME: $WEBUI_NAME })}
+								{$i18n.t('Signing in to Logic System AI', { WEBUI_NAME: 'Logic System AI' })}
 							</div>
 
 							<div>
@@ -183,21 +183,21 @@
 							<div class="mb-1">
 								<div class=" text-2xl font-medium">
 									{#if $config?.onboarding ?? false}
-										{$i18n.t(`Get started with {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
+										{$i18n.t(`Get started with Logic System AI`, { WEBUI_NAME: 'Logic System AI' })}
 									{:else if mode === 'ldap'}
-										{$i18n.t(`Sign in to {{WEBUI_NAME}} with LDAP`, { WEBUI_NAME: $WEBUI_NAME })}
+										{$i18n.t(`Sign in to Logic System AI with LDAP`, { WEBUI_NAME: 'Logic System AI' })}
 									{:else if mode === 'signin'}
-										{$i18n.t(`Sign in to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
+										{$i18n.t(`Sign in to Logic System AI`, { WEBUI_NAME: 'Logic System AI' })}
 									{:else}
-										{$i18n.t(`Sign up to {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
+										{$i18n.t(`Sign up to Logic System AI`, { WEBUI_NAME: 'Logic System AI' })}
 									{/if}
 								</div>
 
 								{#if $config?.onboarding ?? false}
 									<div class=" mt-1 text-xs font-medium text-gray-500">
-										ⓘ {$WEBUI_NAME}
+										ⓘ {'Logic System AI'}
 										{$i18n.t(
-											'does not make any external connections, and your data stays securely on your locally hosted server.'
+											'keeps your data safe and isolated. We do not use your data in any way, except to provide you this service. Your data stays safely isolated from any other instance.'
 										)}
 									</div>
 								{/if}
