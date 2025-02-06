@@ -19,7 +19,7 @@
 	import Tooltip from '$lib/components/common/Tooltip.svelte';
 
 	import EditUserModal from '$lib/components/admin/Users/UserList/EditUserModal.svelte';
-	import UserChatsModal from '$lib/components/admin/Users/UserList/UserChatsModal.svelte';
+	<!--import UserChatsModal from '$lib/components/admin/Users/UserList/UserChatsModal.svelte';-->
 	import AddUserModal from '$lib/components/admin/Users/UserList/AddUserModal.svelte';
 
 	import ConfirmDialog from '$lib/components/common/ConfirmDialog.svelte';
@@ -121,7 +121,7 @@
 		users = await getUsers(localStorage.token);
 	}}
 />
-<UserChatsModal bind:show={showUserChatsModal} user={selectedUser} />
+<!--<UserChatsModal bind:show={showUserChatsModal} user={selectedUser} />-->
 
 <div class="mt-0.5 mb-2 gap-1 flex flex-col md:flex-row justify-between">
 	<div class="flex md:self-center text-lg font-medium px-0.5">
