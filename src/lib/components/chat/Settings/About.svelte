@@ -95,7 +95,7 @@
 			<hr class=" dark:border-gray-850" />
 
 			<div>
-				<div class=" mb-2.5 text-sm font-medium">{$i18n.t('Ollama Version')}</div>
+				<div class=" mb-2.5 text-sm font-medium">{$i18n.t('Model Engine')}</div>
 				<div class="flex w-full">
 					<div class="flex-1 text-xs text-gray-700 dark:text-gray-200">
 						{ollamaVersion ?? 'N/A'}
@@ -113,24 +113,24 @@
 		</div>
 
 		<div class="flex space-x-1">
-			<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
+			<a href="https://logicsystem.ai" target="_blank">
 				<img
 					alt="Discord"
-					src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
+					src="https://img.shields.io/?logo=discord&logoColor=white"
 				/>
 			</a>
 
 			<a href="https://twitter.com/OpenWebUI" target="_blank">
 				<img
 					alt="X (formerly Twitter) Follow"
-					src="https://img.shields.io/twitter/follow/OpenWebUI"
+					src="https://logicsystem.ai"
 				/>
 			</a>
 
-			<a href="https://github.com/open-webui/open-webui" target="_blank">
+			<a href="https://logicsystem.ai" target="_blank">
 				<img
-					alt="Github Repo"
-					src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
+					alt="Info"
+					src="https://logicsystem.ai"
 				/>
 			</a>
 		</div>
@@ -138,9 +138,9 @@
 		<div>
 			<pre
 				class="text-xs text-gray-400 dark:text-gray-500">Copyright (c) {new Date().getFullYear()} <a
-					href="https://openwebui.com"
+					href="https://logicsystem.ai"
 					target="_blank"
-					class="underline">Open WebUI (Timothy Jaeryang Baek)</a
+					class="underline">Logic System AI (HST Innovations LLC)</a
 				>
 All rights reserved.
 
@@ -175,11 +175,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			{#if !$WEBUI_NAME.includes('Open WebUI')}
 				<span class=" text-gray-500 dark:text-gray-300 font-medium">{$WEBUI_NAME}</span> -
 			{/if}
-			{$i18n.t('Created by')}
+			{$i18n.t('Built by')}
 			<a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
-				href="https://github.com/tjbck"
-				target="_blank">Timothy J. Baek</a
+				href="https://logicsystem.ai"
+				target="_blank">Logic System AI</a
 			>
 		</div>
 	</div>
