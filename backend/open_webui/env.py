@@ -122,12 +122,13 @@ ENV = os.environ.get("ENV", "dev")
 FROM_INIT_PY = os.environ.get("FROM_INIT_PY", "False").lower() == "true"
 
 if FROM_INIT_PY:
-    PACKAGE_DATA = {"version": importlib.metadata.version("open-webui")}
+   # PACKAGE_DATA = {"version": importlib.metadata.version("open-webui")}
+    PACKAGE_DATA = {"version": "1.0.0"}
 else:
     try:
         PACKAGE_DATA = json.loads((BASE_DIR / "package.json").read_text())
     except Exception:
-        PACKAGE_DATA = {"version": "0.0.0"}
+        PACKAGE_DATA = {"version": "1.0.0"}
 
 
 VERSION = PACKAGE_DATA["version"]
