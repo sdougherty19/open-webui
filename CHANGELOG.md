@@ -5,9 +5,9 @@
 
 Welcome to Logic System AI! This platform is designed to provide you with an easy-to-use and secure private AI assistant experience.
 
-1. **Start a Conversation:** Simply type your query in the chat window and begin interacting with Logic System AI.
-2. **Upload Documents/Images:** Drag and drop files into the designated area to enable advanced data processing and information retrieval.
-3. **Organize Your Chats Using Folders:** Create and add folders to keep your different chat windows organized. 
+- **Start a Conversation:** Simply type your query in the chat window and begin interacting with Logic System AI.
+- **Upload Documents/Images:** Drag and drop files into the designated area to enable advanced data processing and information retrieval.
+- **Organize Your Chats Using Folders:** Create and add folders to keep your different chat windows organized. 
 
 #### What's New:
 - **Clean Interface:** Enjoy a modern and streamlined design that makes navigation intuitive.
