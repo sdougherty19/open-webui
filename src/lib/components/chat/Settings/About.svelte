@@ -55,19 +55,20 @@
 				<div class="flex flex-col text-xs text-gray-700 dark:text-gray-200">
 					<div class="flex gap-1">
 						<Tooltip content={WEBUI_BUILD_HASH}>
-							v{WEBUI_VERSION}
+							v{"1.0.0"}
+							<!--v{WEBUI_VERSION}-->
 						</Tooltip>
 
-						<a
+						<!--<a
 							href="https://github.com/open-webui/open-webui/releases/tag/v{version.latest}"
 							target="_blank"
-						>
+						
 							{updateAvailable === null
 								? $i18n.t('Checking for updates...')
 								: updateAvailable
 									? `(v${version.latest} ${$i18n.t('available!')})`
 									: $i18n.t('(latest)')}
-						</a>
+						</a> -->
 					</div>
 
 					<button
@@ -114,24 +115,24 @@
 
 		<div class="flex space-x-1">
 			<a href="https://logicsystem.ai" target="_blank">
-				<img
-					alt="Discord"
+				<!--<img
+					alt="Discord" 
 					src="https://img.shields.io/?logo=discord&logoColor=white"
-				/>
-			</a>
-
-			<a href="https://twitter.com/OpenWebUI" target="_blank">
-				<img
-					alt="X (formerly Twitter) Follow"
-					src="https://logicsystem.ai"
-				/>
+				/>-->
 			</a>
 
 			<a href="https://logicsystem.ai" target="_blank">
-				<img
+				<!--<img
+					alt="X (formerly Twitter) Follow"
+					src="https://logicsystem.ai"
+				/>-->
+			</a>
+
+			<a href="https://logicsystem.ai" target="_blank">
+				<!--<img
 					alt="Info"
 					src="https://logicsystem.ai"
-				/>
+				/>-->
 			</a>
 		</div>
 
