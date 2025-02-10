@@ -191,8 +191,8 @@ for version in soup.find_all("h2"):
         # Move to the next element
         current = current.find_next_sibling()
 
-    #changelog_json[version_number] = version_data
-    changelog_json[version_number] = "1.0.0"
+    changelog_json[version_number] = version_data
+    #changelog_json[version_number] = "1.0.0"
 
 
 CHANGELOG = changelog_json
