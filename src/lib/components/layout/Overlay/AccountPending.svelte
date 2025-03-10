@@ -22,13 +22,13 @@
 			<div class="max-w-md">
 				<div class="text-center dark:text-white text-2xl font-medium z-50">
 					{$i18n.t('Account Activation Pending')}<br />
-					{$i18n.t('Contact Admin for WebUI Access')}
+					{$i18n.t('')}
 				</div>
 
 				<div class=" mt-4 text-center text-sm dark:text-gray-200 w-full">
 					{$i18n.t('Your account status is currently pending activation.')}<br />
 					{$i18n.t(
-						'To access the WebUI, please reach out to the administrator. Admins can manage user statuses from the Admin Panel.'
+						'Thank you for signing up! Your account is being setup. If it has been more than 48 hours and you have not heard from Logic System AI, or a representative, please contact us from the webpage. Or, reach out to your representative. Thank you!'
 					)}
 				</div>
 
