@@ -233,7 +233,7 @@
 									<div class=" mt-1 text-xs font-medium text-gray-500">
 										ⓘ {$WEBUI_NAME}
 										{$i18n.t(
-											'does not make any external connections, and your data stays securely on your locally hosted server.'
+											'keeps your data safe and isolated. We do not use the data in any way, other than to provide you this service. Messages are completely private.'
 										)}
 									</div>
 								{/if}
