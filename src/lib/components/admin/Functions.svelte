@@ -561,7 +561,7 @@
 
 		<div class="my-3">
 			{$i18n.t(
-				'I understand the implications and risks of executing arbitrary code, and I have confirmed the source's reliability.'
+				'I understand the implications and risks of executing arbitrary code, and I have confirmed source reliability.'
 			)}
 		</div>
 	</div>
