@@ -19,7 +19,7 @@
 	import Tooltip from '$lib/components/common/Tooltip.svelte';
 
 	import EditUserModal from '$lib/components/admin/Users/UserList/EditUserModal.svelte';
-	import UserChatsModal from '$lib/components/admin/Users/UserList/UserChatsModal.svelte';
+	//import UserChatsModal from '$lib/components/admin/Users/UserList/UserChatsModal.svelte';
 	import AddUserModal from '$lib/components/admin/Users/UserList/AddUserModal.svelte';
 
 	import ConfirmDialog from '$lib/components/common/ConfirmDialog.svelte';
@@ -123,7 +123,7 @@
 		users = await getUsers(localStorage.token);
 	}}
 />
-<UserChatsModal bind:show={showUserChatsModal} user={selectedUser} />
+<!--<UserChatsModal bind:show={showUserChatsModal} user={selectedUser} />-->
 
 {#if ($config?.license_metadata?.seats ?? null) !== null && users.length > $config?.license_metadata?.seats}
 	<div class=" mt-1 mb-2 text-xs text-red-500">
