@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 # Initialize device type args
 # use build args in the docker build command with --build-arg="BUILDARG=true"
-ARG USE_CUDA=false
+ARG USE_CUDA=true
 ARG USE_OLLAMA=false
 # Tested with cu117 for CUDA 11 and cu121 for CUDA 12 (default)
 ARG USE_CUDA_VER=cu121
@@ -21,7 +21,7 @@ ARG UID=0
 ARG GID=0
 
 ######## WebUI frontend ########
-FROM --platform=$BUILDPLATFORM node:22-alpine3.20 AS build
+FROM --platform=${BUILDPLATFORM:-linux/amd64} node:22-alpine3.20 AS build
 ARG BUILD_HASH
 
 WORKDIR /app
