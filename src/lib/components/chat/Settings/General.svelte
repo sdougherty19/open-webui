@@ -169,7 +169,7 @@
 <div class="flex flex-col h-full justify-between text-sm">
 	<div class="  overflow-y-scroll max-h-[28rem] lg:max-h-full">
 		<div class="">
-			<div class=" mb-1 text-sm font-medium">{$i18n.t('WebUI Settings')}</div>
+			<div class=" mb-1 text-sm font-medium">{$i18n.t('Logic System AI Settings')}</div>
 
 			<div class="flex w-full justify-between">
 				<div class=" self-center text-xs font-medium">{$i18n.t('Theme')}</div>
@@ -213,10 +213,10 @@
 					Couldn't find your language?
 					<a
 						class=" text-gray-300 font-medium underline"
-						href="https://github.com/open-webui/open-webui/blob/main/docs/CONTRIBUTING.md#-translations-and-internationalization"
+						href="https://logicsystem.ai"
 						target="_blank"
 					>
-						Help us translate Open WebUI!
+						Let us know by contacting us!
 					</a>
 				</div>
 			{/if}
