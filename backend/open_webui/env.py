@@ -106,11 +106,11 @@ for source in log_sources:
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
-if WEBUI_NAME != "Open WebUI":
-    WEBUI_NAME += " (Open WebUI)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Logic System AI")
+if WEBUI_NAME != "Logic System AI":
+    WEBUI_NAME += " (Logic System AI)"
 
-WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
+WEBUI_FAVICON_URL = "https://logicsystem.ai/favicon.png"
 
 TRUSTED_SIGNATURE_KEY = os.environ.get("TRUSTED_SIGNATURE_KEY", "")
 
@@ -123,15 +123,16 @@ ENV = os.environ.get("ENV", "dev")
 FROM_INIT_PY = os.environ.get("FROM_INIT_PY", "False").lower() == "true"
 
 if FROM_INIT_PY:
-    PACKAGE_DATA = {"version": importlib.metadata.version("open-webui")}
+    # PACKAGE_DATA = {"version": importlib.metadata.version("open-webui")}
+    PACKAGE_DATA = {"1.0.0": "1.0.0"}
 else:
     try:
         PACKAGE_DATA = json.loads((BASE_DIR / "package.json").read_text())
     except Exception:
-        PACKAGE_DATA = {"version": "0.0.0"}
+        PACKAGE_DATA = {"1.0.0": "1.0.0"}
 
-
-VERSION = PACKAGE_DATA["version"]
+VERSION = "1.0.0"
+#VERSION = PACKAGE_DATA["version"]
 
 
 # Function to parse each section
