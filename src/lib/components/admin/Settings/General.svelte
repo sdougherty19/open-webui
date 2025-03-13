@@ -183,14 +183,14 @@
 
 							<a
 								class="flex-shrink-0 text-xs font-medium underline"
-								href="https://docs.openwebui.com/"
+								href="https://logicsystem.ai/docs/"
 								target="_blank"
 							>
 								{$i18n.t('Documentation')}
 							</a>
 						</div>
 
-						<div class="mt-1">
+						<!--<div class="mt-1">
 							<div class="flex space-x-1">
 								<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
 									<img
@@ -213,10 +213,10 @@
 									/>
 								</a>
 							</div>
-						</div>
+						</div>-->
 					</div>
 
-					<div class="mb-2.5">
+					<!--<div class="mb-2.5">
 						<div class="flex w-full justify-between items-center">
 							<div class="text-xs pr-2">
 								<div class="">
@@ -267,7 +267,7 @@
 							>
 								{$i18n.t('Activate')}
 							</button> -->
-						</div>
+						</div>-->
 					</div>
 				</div>
 
