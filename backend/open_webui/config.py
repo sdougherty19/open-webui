@@ -109,47 +109,44 @@ DEFAULT_CONFIG = {
         "prompt_suggestions": [
             {
                 "title": [
-                    "Help me study",
-                    "vocabulary for a college entrance exam",
-                ],
-                "content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
-            },
+                "Daily routine planner",
+                "create a balanced schedule"
+            ],
+            "content": "Help me create a daily routine that balances work, exercise, and relaxation. Provide suggestions for time slots based on my interests."
+        },
             {
                 "title": [
-                    "Give me ideas",
-                    "for what to do with my kids' art",
-                ],
-                "content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter.",
-            },
+                "Language learning tips",
+                "for quick vocabulary acquisition"
+            ],
+            "content": "Give me 3 effective strategies to quickly learn new vocabulary in a foreign language I'm studying."
+        },
             {
-                "title": ["Tell me a fun fact", "about the Roman Empire"],
-                "content": "Tell me a random fun fact about the Roman Empire",
-            },
-            {
-                "title": [
-                    "Show me a code snippet",
-                    "of a website's sticky header",
-                ],
-                "content": "Show me a code snippet of a website's sticky header in CSS and JavaScript.",
-            },
+                "title": ["Help organize digital files", "automate the process"],
+            "content": "What are some methods or tools to help automatically categorize and organize my digital photo library by date or location?"
+        },
             {
                 "title": [
-                    "Explain options trading",
-                    "if I'm familiar with buying and selling stocks",
-                ],
-                "content": "Explain options trading in simple terms if I'm familiar with buying and selling stocks.",
-            },
+                "Recipe ideas",
+                "using ingredients I have"
+            ],
+            "content": "Provide a recipe idea using these ingredients: chicken, broccoli, garlic. Include steps and any additional common pantry items."
+        },
             {
-                "title": ["Overcome procrastination", "give me tips"],
-                "content": "Could you start by asking me about instances when I procrastinate the most and then give me some suggestions to overcome it?",
-            },
+                "title": ["Travel planning", "budget-friendly destinations"],
+            "content": "Suggest 3 budget-friendly travel destinations with brief reasons why they might be worth visiting."
+        },
             {
                 "title": [
-                    "Grammar check",
-                    "rewrite it for better readability ",
-                ],
-                "content": 'Check the following sentence for grammar and clarity: "[sentence]". Rewrite it for better readability while maintaining its original meaning.',
-            },
+                "Mindfulness exercises",
+                "to reduce stress"
+            ],
+            "content": "Can you suggest a short mindfulness exercise to help me relax after a busy day?"
+        },
+            {
+                "title": ["Financial planning basics", "budgeting tips"],
+            "content": "What are the basic steps to creating and maintaining an effective personal budget? Provide some general tips."
+        }
         ],
     },
 }
