@@ -267,7 +267,7 @@
 							>
 								{$i18n.t('Activate')}
 							</button> -->
-						</div>
+						<!--</div>-->
 					</div>
 				</div>
 
