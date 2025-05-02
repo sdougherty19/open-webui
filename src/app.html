@@ -184,23 +184,6 @@
 				Footer content
 			</span> -->
 		</div>
-	
-<!--NEW SCRIPT-->
-</script>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      const params = new URLSearchParams(window.location.search);
-      const email = params.get('email');
-      if (email) {
-        const loginInput = document.querySelector('input#email');
-        if (loginInput) {
-          loginInput.value = email;
-          // If Svelte is managing the field, dispatch an input event:
-          loginInput.dispatchEvent(new Event('input', { bubbles: true }));
-        }
-      }
-    });
-  </script>
 	</body>
 </html>
 
